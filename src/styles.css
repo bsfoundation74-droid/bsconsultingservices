@@ -1,0 +1,27 @@
+@import "tailwindcss" source("../");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #070d0f;
+  color: #f5f7f7;
+}
+
+a {
+  color: inherit;
+}
+
+:root {
+  --bs-gold: #c89b3c;
+  --bs-teal: #0b6b72;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+code {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
